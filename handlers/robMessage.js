@@ -27,7 +27,7 @@ async function postRobMessage(client) {
   const embed = new EmbedBuilder()
     .setDescription(
       `Hey, buddy. Get too drunk or what? Found you face-first in the snow. Out cold... No pun intended--Rob, by the way.\n\n` +
-      `...Well, anyways, I was searching ya', and I notice... You don't have any identification, nothing. Not even a little territory claim in your journal--You don't even have a journal--Matter of fact... You don't have much of anything other than some cloth on ya'.`
+      `...Well, anyways, I was searching ya', and I notice... You don't have any identification, nothing. Not even a little territory claim in your journal--You don't even have a journal--Matter of fact... You don't have much of anything other than some cloth on ya'.` +
       `Here. Take this extra one. ` +
       `A name. A couple "kind" words. Maybe a sketch of your face? So the raider standin' over your body lootin' ya can get a piece of you post-mortem.` +
       `...And so they know who they just killed, I suppose.\n\n` +
