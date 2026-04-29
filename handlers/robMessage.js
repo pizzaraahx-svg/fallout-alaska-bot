@@ -33,7 +33,7 @@ async function postRobMessage(client) {
       `...And so they know who they just killed, I suppose.\n\n` +
       `*It's custom around here, if you don't already know.* You prepare for it. Anticipate it. And when it comes--and it comes for everybody--` +
       `you're already above it.\n\n` +
-      `Don't overthink it. It ain't a form. Just — whoever finds this, here's who I was... and here's what I think of you being in my journal.\n\n` +
+      `Don't overthink it. It ain't a form. Just--whoever finds this, here's who I was... and here's what I think of you being in my journal.\n\n` +
       `*Give it a go.*`
     )
 
