@@ -26,24 +26,21 @@ async function postRobMessage(client) {
 
   const embed = new EmbedBuilder()
     .setDescription(
-      `Hey. Name's Rob. I'll keep this short 'cause that's how things go out here.\n\n` +
-      `Everybody round' the wasteland understands the risk of death. Shepherds or no Shepherds — ` +
-      `the brain's still a fragile thing.\n\n` +
-      `So somewhere along the way people started writin' things down. First page of whatever they carry. ` +
-      `A name. A couple words. Maybe a sketch of their own face so the raider standin' over their body ` +
-      `knows who they just killed.\n\n` +
-      `*Custom now.* You prepare for it. Anticipate it. And when it comes — and it comes for everybody — ` +
+      `Hey, buddy. Get too drunk or what? Found you face-first in the snow. Out cold... No pun intended--Rob, by the way.\n\n` +
+      `...Well, anyways, I was searching ya', and I notice... You don't have any identification, nothing. Not even a little territory claim in your journal--You don't even have a journal--Matter of fact... You don't have much of anything other than some cloth on ya'.`
+      `Here. Take this extra one. ` +
+      `A name. A couple "kind" words. Maybe a sketch of your face? So the raider standin' over your body lootin' ya can get a piece of you post-mortem.` +
+      `...And so they know who they just killed, I suppose.\n\n` +
+      `*It's custom around here, if you don't already know.* You prepare for it. Anticipate it. And when it comes--and it comes for everybody--` +
       `you're already above it.\n\n` +
-      `Don't overthink it. It ain't a form. Just — whoever finds this, here's who I was.\n\n` +
+      `Don't overthink it. It ain't a form. Just — whoever finds this, here's who I was... and here's what I think of you being in my journal.\n\n` +
       `*Give it a go.*`
     )
-    .setFooter({ text: 'keep it or burn it' })
-    .setColor(0x2b2b2b);
 
   const button = new ActionRowBuilder().addComponents(
     new ButtonBuilder()
       .setCustomId('open_journal')
-      .setLabel('open your journal')
+      .setLabel('OPEN YOUR JOURNAL')
       .setStyle(ButtonStyle.Secondary)
   );
 
